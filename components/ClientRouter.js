@@ -1,5 +1,6 @@
 import { withRouter } from 'next/router';
 import {ClientRouter as AppBridgeClientRouter} from '@shopify/app-bridge-react';
+import React from "react";
 
 function ClientRouter(props) {
   const {router} = props;
